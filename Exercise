@@ -1,0 +1,9 @@
+import re
+def is_valid_Python_variable_name(string):
+    found=re.match("[_A-Za-z][_a-zA-Z0-9]*",string)
+    return bool(found)
+
+#print(var)
+var=input("Enter a string")
+var1=is_valid_Python_variable_name(var)
+print(var1)

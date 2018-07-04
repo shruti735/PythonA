@@ -1,0 +1,6 @@
+import math
+from math import radians, sin
+
+print(sin(radians(60)))
+print(math.pi)
+print(math.atan(1))
